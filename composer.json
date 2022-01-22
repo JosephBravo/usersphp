@@ -1,0 +1,14 @@
+{
+    "name": "jbravo/phpusers",
+    "description": "Directory with user registration",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JosephBravo",
+            "email": "jorbravoa@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
