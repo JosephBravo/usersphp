@@ -7,7 +7,7 @@ body {
   }
   
   /* Input Forms*/
-  input[type="text"], input[type="password"], input[type="number"]{
+  input[type="text"], input[type="password"], input[type="number"], input[type="email"]{
     outline: none;
     padding: 20px;
     display: block;
@@ -16,6 +16,17 @@ body {
     border: 1px solid rgb(44, 0, 0);
     margin: 20px auto;
   }
+
+    /* Input Forms*/
+    select{
+      outline: none;
+      padding: 20px;
+      display: block;
+      width: 300px;
+      border-radius: 3px;
+      border: 1px solid rgb(44, 0, 0);
+      margin: 20px auto;
+    }
   
   
   input[type="submit"] {
@@ -30,7 +41,7 @@ body {
     cursor: pointer;
   }
   input[type="submit"]:hover {
-    background-color: #6919c5;
+    background-color: #121349;
   }
   
   /* Header */
@@ -45,4 +56,3 @@ body {
     text-decoration: none;
     color: #333;
   }
-  

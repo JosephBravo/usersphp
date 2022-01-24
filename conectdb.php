@@ -2,6 +2,7 @@
 
 session_start();
 
+
 if(isset($_POST['send'])){
     $search = $_POST['send2'];
     $con = mysqli_connect("localhost", "jbravo", "alejoy", "users");
